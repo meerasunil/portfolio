@@ -23,11 +23,14 @@ header {
 
 
 .content {
-    margin-left: 200px;
+    margin-left: 180px;
     padding: 20px;
     margin-top: 100px;
-    background-color: rgb(194, 216, 216);
+    background-color: rgb(245, 248, 248, 50%);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: rgb(255, 74, 219);
+}
+body {
+    background-color: lightgreen;
 }
