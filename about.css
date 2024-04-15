@@ -5,22 +5,22 @@ header {
     left: 0;
     min-height: 50px;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 
 .sidebar {
     position: fixed;
-    border: 2px solid black;
-    width: 170px;
-    top:100px;
-    height: 60vh;
-    left: 8px;
-    font-size: 1.25rem;
-    overflow-y: auto;
-    z-index: 1;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-
+     border: 3px solid hsl(0, 0%, 0%);
+     width: 170px;
+     top: 112px;
+     height: 100vh;
+     left: 8px;
+     font-size:1.5rem;
+     overflow-y: auto;
+     z-index: 1;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+ }
 
 .content {
     margin-left: 180px;
