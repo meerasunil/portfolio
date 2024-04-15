@@ -1,0 +1,33 @@
+header {
+    border: 2px solid black;
+    text-align: left;
+    padding: 10px;
+    left: 0;
+    min-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar {
+    position: fixed;
+    border: 2px solid black;
+    width: 170px;
+    top:100px;
+    height: 60vh;
+    left: 8px;
+    font-size: 1.25rem;
+    overflow-y: auto;
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.content {
+    margin-left: 200px;
+    padding: 20px;
+    margin-top: 100px;
+    background-color: rgb(194, 216, 216);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 74, 219);
+}
