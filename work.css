@@ -60,7 +60,6 @@ a {
     
     .content img{
         min-width: 90vw;
-        height: max-content;
         object-fit: contain;
         gap: 0px;
     }
