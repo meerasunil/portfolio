@@ -25,5 +25,15 @@ var data = [
         date: 05/2023,
         imageUrl:'work/83copy.jpg',
     },
+    {
+        name: 'Nat Geo 1',
+        date: 10/2022,
+        imageUrl:'work/ng1.jpeg',
+    },
+    {
+        name: 'Nat Geo 2',
+        date: 10/2022,
+        imageUrl:'work/ng2.jpeg',
+    },
     
 ]

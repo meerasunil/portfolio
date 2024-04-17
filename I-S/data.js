@@ -104,4 +104,14 @@ var data = [
         imageUrl:'5.jpg',
         date: 2022,
     },
+    {
+        name: 'Nat Geo 1',
+        date: 10/2022,
+        imageUrl:'work/ng1.jpeg',
+    },
+    {
+        name: 'Nat Geo 2',
+        date: 10/2022,
+        imageUrl:'work/ng2.jpeg',
+    },
 ]
