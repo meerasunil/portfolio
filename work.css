@@ -58,10 +58,10 @@ a {
         
     }
     
-    
     .content img{
-        max-width: 200px;
-        min-width: 50px;
+        min-width: 90vw;
+        height: max-content;
+        object-fit: contain;
     }
     .sidebar {
         position: relative;
