@@ -18,7 +18,7 @@ var data = [
         name: 'Still Here Archives',
         date: 07/2023,
         imageUrl: ['work/pg.jpg',],
-        url: 'stillherearchives.com',
+        url: 'https://stillherearchives.com/',
     },
     {
         name: 'Mockups for Jumanna Manna\'s Ps1 Exhibit: Break Take Erase Tally',
