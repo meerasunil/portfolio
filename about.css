@@ -1,14 +1,16 @@
-@media (min-width: 801px) {
+@media (min-width: 801px){
 header {
     border: 2px solid black;
     text-align: left;
     padding: 10px;
     left: 0;
+    color: white;
+    background-image: url(./work/bgt.jpg);
+    background-size:cover;
     min-height: 50px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
-
 .sidebar {
     position: fixed;
      border: 3px solid hsl(0, 0%, 0%);
@@ -37,9 +39,9 @@ body {
 }
 a{
     text-decoration: none;
+    color: inherit;
 }
 }
-
 @media (min-width: 0) and (max-width: 800px) {
     body {
         background-color: lightgreen;
@@ -49,7 +51,9 @@ a{
         text-align: left;
         padding: 10px;
         left: 0;
-        background-color: rgb(247, 240, 253);
+        color: rgb(0, 0, 0);
+        background-image: url(./work/bgt.jpg);
+        background-position: 60%;
         min-height: 50px;
         width: 100vw;
         font-family: Arial, Helvetica, sans-serif;
@@ -86,6 +90,7 @@ a{
          position: relative;
      }
      a{
-    text-decoration: none;
+     text-decoration: none;
+     color: inherit;
 }
 }

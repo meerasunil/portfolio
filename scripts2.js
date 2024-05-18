@@ -9,12 +9,18 @@ function renderImages(item) {
             image.alt = item.name;
             imageContainer.appendChild(image);
         });
+
+       
+
     } else if (item.imageUrl) { 
         var image = document.createElement('img');
         image.src = item.imageUrl;
         image.alt = item.name;
         imageContainer.appendChild(image);
     }
+    var divider = document.createElement('hr');
+    imageContainer.appendChild(divider);
+    console.log(divider);
 
     if (item.url) {
         var iframe = document.createElement('iframe');

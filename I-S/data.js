@@ -17,14 +17,14 @@ var data = [
     {
         name: 'Still Here Archives',
         date: 07/2023,
-        imageUrl: ['work/pg.jpg',],
-        url: 'stillherearchives.com',
+        imageUrl: 'work/pg.jpg',
+        url: 'https://stillherearchives.com',
     },
     {
         name: 'Still Here Archives',
         date: 07/2023,
-        videoUrl: ['work/shwt.mov',],
-        url: 'stillherearchives.com',
+        videoUrl: 'work/shwt.mov',
+        url: 'https://stillherearchives.com',
     },
     {
         name: 'Mockups for Jumanna Manna\'s Ps1 Exhibit: Break Take Erase Tally',
@@ -38,6 +38,7 @@ var data = [
     {
         name: 'Taking Action',
         imageUrl:'work/04_01_takingaction copy.jpg',
+        
     },
     {
         name: 'BC',
@@ -81,7 +82,7 @@ var data = [
     },
     {
         name: '',
-        imageUrl:'work/jnewfvyytgcopy.jpg',
+        imageUrl:'work/newfvyytgcopy.jpg',
         date: 2022,
     },
     {
@@ -91,17 +92,17 @@ var data = [
     },
     {
         name: '',
-        imageUrl:'work/6',
+        imageUrl:'work/6.jpg',
         date: 2022,
     },
     {
         name: '',
-        imageUrl:'perfumeweb.gif',
+        imageUrl:'work/perfumeweb.gif',
         date: 12/2023,
     },
     {
         name: '',
-        imageUrl:'5.jpg',
+        imageUrl:'work/5.jpg',
         date: 2022,
     },
     {

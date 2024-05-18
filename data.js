@@ -17,7 +17,8 @@ var data = [
     {
         name: 'Still Here Archives',
         date: 07/2023,
-        imageUrl: ['work/pg.jpg',],
+        imageUrl: 'work/pg.jpg',
+        videoUrl: 'work/shwt.mov',
         url: 'https://stillherearchives.com/',
     },
     {
