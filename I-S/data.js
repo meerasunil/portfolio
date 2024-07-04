@@ -1,8 +1,13 @@
 var data = [
     {
-        name: 'PrEP Posters',
-        date: 11/2022,
-        imageUrl: ['work/1.jpeg', 'work/prep2.jpeg'],
+        name: 'PrEP Poster 1',
+        date: '11/2022',
+        imageUrl: 'work/1.jpeg',
+    },
+    {
+        name: 'PrEP Poster 2',
+        date: '11/2022',
+        imageUrl: 'work/prep2.jpeg',
     },
     {
         name: 'Why I Love Every Color',
@@ -21,22 +26,18 @@ var data = [
         url: 'https://stillherearchives.com',
     },
     {
-        name: 'Still Here Archives',
-        date: 07/2023,
-        videoUrl: 'work/shwt.mov',
-        url: 'https://stillherearchives.com',
-    },
-    {
         name: 'Mockups for Jumanna Manna\'s Ps1 Exhibit: Break Take Erase Tally',
         date: 05/2023,
         imageUrl:'work/83copy.jpg',
     },
     {
         name: 'Second Sleep',
+        date: 2023,
         imageUrl:'work/01_second_sleep.jpg',
     },
     {
         name: 'Taking Action',
+        date: 2023,
         imageUrl:'work/04_01_takingaction copy.jpg',
         
     },
@@ -46,62 +47,62 @@ var data = [
         date: 07/2023,
     },
     {
-        name: '',
+        name: 'a1',
         imageUrl:'work/crapcrap copy.jpg',
         date: 2022,
     },
     {
-        name: '',
+        name: 'b2',
         imageUrl:'work/creepypasta copy.jpg',
         date: 2022,
     },
     {
-        name: '',
+        name: 'c3',
         imageUrl:'work/gardenangellovemusicbaby copy.jpg',
         date: 2022,
     },
     {
-        name: '',
+        name: 'd4',
         imageUrl:'work/imcryingandihateeverythingandimcrying.jpg',
         date: 2022,
     },
     {
-        name: '',
+        name: 'e5',
         imageUrl:'work/IMG_0111-Recovered.jpg',
         date: 2022,
     },
     {
-        name: '',
+        name: 'f6',
         imageUrl:'work/IMG_6839-Recovered.jpg',
         date: 2022,
     },
     {
-        name: '',
+        name: 'g7',
         imageUrl:'work/jeansad.jpg',
         date: 2022,
     },
     {
-        name: '',
+        name: 'h8',
         imageUrl:'work/newfvyytgcopy.jpg',
         date: 2022,
     },
     {
-        name: '',
+        name: 'i9',
         imageUrl:'work/4.jpg',
         date: 2022,
     },
     {
-        name: '',
+        name: 'j10',
         imageUrl:'work/6.jpg',
         date: 2022,
     },
     {
-        name: '',
+        name: 'k11',
         imageUrl:'work/perfumeweb.gif',
         date: 12/2023,
     },
     {
-        name: '',
+        name: 'l12',
         imageUrl:'work/5.jpg',
         date: 2022,
     },

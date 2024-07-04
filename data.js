@@ -36,5 +36,9 @@ var data = [
         date: 10/2022,
         imageUrl:'work/ng2.jpeg',
     },
-    
+    {
+        name: 'Babel',
+        date: 02/2024,
+        url: 'http://sunim094.interactive.rodeo/studio/project-1/index.html',
+    },
 ]
