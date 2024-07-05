@@ -1,93 +1,82 @@
-/*DESKTOP*/
-/*DESKTOP*/
-/*DESKTOP*/
+@font-face {
+    font-family:'Yeseva' ;
+    src: url(./YesevaOne-Regular.ttf);
+}
 /*DESKTOP*/
 @media (min-width: 801px) {
-
-    body {
-        background-color: rgba(244, 212, 243, 0.9);
-        
-    }
-    header {
-        border: 2px solid black;
-        text-align: left;
-        padding: 10px;
-        left: 0;
-        color: white;
-        background-image: url(./work/bgt.jpg);
-        background-size:cover;
-        min-height: 50px;
-        font-family: Arial, Helvetica, sans-serif;
-        text-decoration: none;
-    }
-    .sidebar {
-        position: fixed;
-         border: 1px solid hsl(0, 0%, 0%);
-         width: 29vw;
-         top: 126px;
-         height: 85vh;
-         color: rgb(254, 251, 251);
-         text-decoration: none;
-         font-size:1.3rem;
-         overflow-y: auto;
-         z-index: 1;
-         font-family: Arial, Helvetica, sans-serif;
-         font-weight: bold;
-         background-color: rgba(14, 106, 155, 0.8);
-        
-     }
-     button#changeStylesButton {
-        position: fixed;
-        top: 10px; 
-        right: 10px; 
-        z-index: 1000; 
-        padding: 10px 20px; 
-        background-color: rgb(255, 157,90, .6); 
-        color: white; 
-        border: none; 
-        border-radius: 5px; 
-        cursor: pointer;
-        font-size: 2rem;
-        }
-        button#changeStylesButton:hover {
-            background-color: rgb(255, 157,90, .6);
-        }
-     .submenu {
-        font-size: .9rem;
-        color: white;
-        border: 1px solid rgb(0, 0, 0);
-        text-decoration: none;
-        font-weight: lighter;
-        margin-right: 10px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 20px;
-    }
-    .submenu li {
-        list-style-type: lower-latin;
-    }    
-.cb {
+header {
+    border: 2px solid black;
+    text-align: left;
+    padding: 10px;
+    left: 0;
+    color: black;
+    background-size:cover;
+    min-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+body {
+    background-size: 100px;
+    background-repeat: repeat;
+    
+}
+.button {
+    position: fixed;
+    top: 10px; 
+    right: 10px; 
+    z-index: 1000; 
+    padding: 20px;
+    color: black; 
     border: 1px solid black;
+    cursor: pointer; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+  }
+.sidebar {
+    position: fixed;
+     border: 1px solid hsl(0, 0%, 0%);
+     width: 29vw;
+     top: 126px;
+     height: 85vh;
+     color: black;
+     text-decoration: none;
+     font-size:1.3rem;
+     overflow-y: auto;
+     z-index: 1;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+    
+ }
+a {
+    color: inherit;
+}
+ .submenu {
+    font-size: .9rem;
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: lighter;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.submenu li {
+    list-style-type: lower-latin;
+    letter-spacing: 1px;
+}
+.cb {
+    border: 1px solid rgb(0, 0, 0);
+    width: fit-content;
+    padding-inline: 80px;
+}
+h3 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
 }
 
 a {
     text-decoration: none;
-    color: inherit;
-}
-h2 {
-    font-family: Arial;
-    font-weight: bold;
-    color: rgb(255, 115, 0);
-
-}
-h3 {
-    color: rgb(255, 60, 255);
-    font-family: papyrus;
-    
-}
-p{
-    font-weight: normal;
-    font-size: 20px;
-    color: rgb(255, 60, 255);
 }
 .content {
     margin-left: 29vw;
@@ -99,7 +88,6 @@ p{
     flex-direction: column;
     flex-wrap: wrap;
     gap: 20px;
-    background-color: rgba(165, 255, 155, 0.6);
 }
 .content img{
     max-height: 400px;
@@ -116,7 +104,6 @@ p{
     width: calc(100vw-20vw);
     background-color: rgb(16, 16, 16); /* Adjust the color as needed */
 }
-
 }
 /*-------------MOBILE-------------------------*/
 /*-------------MOBILE-------------------------*/
@@ -206,18 +193,5 @@ p{
         max-height: 300px;
         box-sizing: border-box;
     }
-    button#changeStylesButton {
-        position: fixed;
-        top: 0px; 
-        right: 0px; 
-        z-index: 1000; 
-        padding: 10px 20px; 
-        background-color: rgb(255, 157,90, .6); 
-        color: white; 
-        border: none; 
-        border-radius: 5px; 
-        cursor: pointer;
-    }
-    
 }
 

@@ -4,105 +4,97 @@
 }
 /*DESKTOP*/
 @media (min-width: 801px) {
-    header {
-        border: 2px solid black;
-        text-align: left;
-        padding: 10px;
-        left: 0;
-        color: white;
-        background-image: url(./work/bgt.jpg);
-        background-size:cover;
-        min-height: 50px;
-        font-family: Arial, Helvetica, sans-serif;
-        text-decoration: none;
-    }
-    body {
-        background-image: url(/patt.jpg);
-        background-size: 100px;
-        background-repeat: repeat;
-        
-    }
- 
-    button#changeStylesButton {
+header {
+    border: 2px solid black;
+    text-align: left;
+    padding: 10px;
+    left: 0;
+    color: black;
+    background-size:cover;
+    min-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+body {
+    background-size: 100px;
+    background-repeat: repeat;
+    
+}
+.button {
     position: fixed;
     top: 10px; 
     right: 10px; 
     z-index: 1000; 
-    padding: 10px 20px; 
-    background-color: rgb(255, 157,90, .6); 
-    color: white; 
-    border: none; 
-    border-radius: 5px; 
-    cursor: pointer;
-    }
-    button#changeStylesButton:hover {
-        background-color: #0056b3;
-    }
-    .sidebar {
-        position: fixed;
-         border: 1px solid hsl(0, 0%, 0%);
-         width: 29vw;
-         top: 126px;
-         height: 85vh;
-         color: rgb(254, 251, 251);
-         text-decoration: none;
-         font-size:1.3rem;
-         overflow-y: auto;
-         z-index: 1;
-         font-family: Arial, Helvetica, sans-serif;
-         font-weight: bold;
-         background-color: rgba(14, 106, 155, 0.8);
-        
-     }
-    a {
-        color: inherit;
-    }
-     .submenu {
-        font-size: .9rem;
-        color: white;
-        border: 1px solid rgb(0, 0, 0);
-        text-decoration: none;
-        font-weight: lighter;
-        margin-right: 10px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 20px;
-    }
-    .submenu li {
-        list-style-type: lower-latin;
-        letter-spacing: 1px;
-    }
-    .cb {
-        border: 1px solid rgb(0, 0, 0);
-        width: fit-content;
-        padding-inline: 80px;
-    }
-    h3 {
-        color: rgb(0, 255, 26);
-        font-family: papyrus;
-        font-style: bold;
-    }
+    padding: 20px;
+    color: black; 
+    border: 1px solid black;
+    cursor: pointer; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+  }
+.sidebar {
+    position: fixed;
+     border: 1px solid hsl(0, 0%, 0%);
+     width: 29vw;
+     top: 126px;
+     height: 85vh;
+     color: black;
+     text-decoration: none;
+     font-size:1.3rem;
+     overflow-y: auto;
+     z-index: 1;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
     
-    a {
-        text-decoration: none;
-    }
-    .content {
-        margin-left: 30vw;
-        padding: 20px;
-        margin-top: 00px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
-        color: rgb(0, 0, 0);
-        background-color: pink;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-    }
-    .content img{
-        max-height: 900px;
-        min-height: 100px;
-        background-color: white;
-    }
-    
+ }
+a {
+    color: inherit;
+}
+ .submenu {
+    font-size: .9rem;
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: lighter;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.submenu li {
+    list-style-type: lower-latin;
+    letter-spacing: 1px;
+}
+.cb {
+    border: 1px solid rgb(0, 0, 0);
+    width: fit-content;
+    padding-inline: 80px;
+}
+h3 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
+.content {
+    margin-left: 30vw;
+    padding: 20px;
+    margin-top: 00px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 2rem;
+}
+.content img{
+    max-height: 900px;
+    min-height: 100px;
+    background-color: white;
+}
 }
 /*MOBILE*/
 @media (min-width: 0) and (max-width: 800px) {
@@ -200,18 +192,6 @@
         width: 3px;
         background-color: black;
         height: 100%;
-    }
-    button#changeStylesButton {
-        position: fixed;
-        top: 0; 
-        right: 0px; 
-        z-index: 1000; 
-        padding: 10px 20px; 
-        background-color: rgb(255, 157,90, .6); 
-        color: white; 
-        border: none; 
-        border-radius: 5px; 
-        cursor: pointer;
     }
 }
 
