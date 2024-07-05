@@ -65,8 +65,14 @@ a{
         overflow-x: hidden;
         margin: 0;
         padding: 0;
+        background-repeat: repeat;
+        background-size: contain;
     }
-    }
+    h3 {
+        color: rgb(255, 157, 0);
+        font-family: papyrus;
+        font-style: bold;
+    }   
     header {
         border: 2px solid black;
         text-align: left;
@@ -95,7 +101,7 @@ a{
     .content {
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
-        background-color: rgba(255, 192, 203, 0.5);
+        background-color: rgba(255, 192, 203, 0.7);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -115,4 +121,5 @@ a{
      a{
      text-decoration: none;
      color: inherit;
+}
 }

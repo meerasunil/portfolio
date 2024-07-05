@@ -113,12 +113,17 @@ p{
         margin: 0;
         padding: 0;
     }
+    h3 {
+        color: rgb(255, 157, 0);
+        font-family: papyrus;
+        font-style: bold;
+    }   
     header {
         border: 2px solid black;
         text-align: left;
         padding: 10px;
         margin: 0 auto;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 206, 159);
         background-image: url(./work/bgt.jpg);
         background-position: 60%;
         min-height: 50px;
