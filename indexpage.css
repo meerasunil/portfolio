@@ -93,6 +93,7 @@ a {
     body {
         background-image: url(/patt.jpg);
         overflow-x: hidden;
+        overflow-y: hidden;
         margin: 0;
         padding: 0;
         background-repeat: repeat;
@@ -161,11 +162,13 @@ a {
         display: flex;
         flex-direction: column;
         align-items: flex-start; /* Align items from top */
+        justify-content: flex-start;
         margin: 0 auto;
         padding: 0px; /* Adjusted padding */
         position: relative;
         width: 100%;
         z-index: 0;
+        height: 100vh;
         box-sizing: border-box;
     }
     .content img {
@@ -177,5 +180,11 @@ a {
         max-height: 300px;
         box-sizing: border-box;
     }
+    .black-bar {
+        width: 3px;
+        background-color: black;
+        height: 100%; /* Ensure the bar fills the height of the .content container */
+    }
+
 }
 

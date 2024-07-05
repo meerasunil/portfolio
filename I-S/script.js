@@ -10,10 +10,10 @@ var secondItem = data[secondItemIndex];
 
 // Create HTML elements to display the selected items
 var contentDiv = document.getElementById('content');
-var contentHTML = '<div style="display: flex; align-items: center;">';
+var contentHTML = '<div style="display: flex; align-items: stretch;">';
 
 // Add first item details
-contentHTML += '<div style="width: 50%; padding: 0px;">';
+contentHTML += '<div style="flex: 1; padding: 0px;">';
 contentHTML += '<h2>' + firstItem.name + '</h2>';
 contentHTML += '<p>Date: ' + firstItem.date + '</p>';
 contentHTML += '<img src="' + firstItem.imageUrl + '" alt="' + firstItem.name + '" style="width: 100%;">';
@@ -22,11 +22,11 @@ if (firstItem.url) {
 }
 contentHTML += '</div>';
 
-// Add a black bar separator
-contentHTML += '<div style="width: 3px; background-color: black; height: 100vh;"></div>';
+// Add a separator using a pseudo-element
+contentHTML += '<div style="width: 2px; background-color: black;"></div>';
 
 // Add second item details
-contentHTML += '<div style="width: 50%; padding: 0px;">';
+contentHTML += '<div style="flex: 1; padding: 0px;">';
 contentHTML += '<h2>' + secondItem.name + '</h2>';
 contentHTML += '<p>Date: ' + secondItem.date + '</p>';
 contentHTML += '<img src="' + secondItem.imageUrl + '" alt="' + secondItem.name + '" style="width: 100%;">';
@@ -39,6 +39,8 @@ contentHTML += '</div>';
 
 // Display the selected items in the content section
 contentDiv.innerHTML = contentHTML;
+
+
 
 var parents = document.querySelectorAll('.parent');
 
