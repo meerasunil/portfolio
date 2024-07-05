@@ -27,7 +27,7 @@ button#changeStylesButton {
     cursor: pointer;
     }
     button#changeStylesButton:hover {
-        background-color: #0056b3;
+        background-color: rgb(255, 157,90, .6); 
     }
 .sidebar {
     position: fixed;
