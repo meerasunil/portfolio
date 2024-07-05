@@ -5,6 +5,11 @@ var data = [
         imageUrl: ['work/1.jpeg', 'work/prep2.jpeg'],
     },
     {
+        name: 'Dossier Website Mockups',
+        date: 11/2023,
+        imageUrl: 'work/perfumeweb.gif',
+    },
+    {
         name: 'Why I Love Every Color',
         date: 03/2023,
         imageUrl: 'work/colors.gif',
