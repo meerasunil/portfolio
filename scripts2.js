@@ -39,9 +39,6 @@ function renderImages(item) {
 var content = document.getElementById('content');
 data.forEach(renderImages);
 
-var content = document.getElementById('content');
-data.forEach(renderImages);
-
 var parents = document.querySelectorAll('.parent');
 
 parents.forEach(function(parent) {

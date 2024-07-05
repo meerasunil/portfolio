@@ -1,4 +1,9 @@
-@media (min-width: 1000px) {
+@font-face {
+    font-family:'Yeseva' ;
+    src: url(./YesevaOne-Regular.ttf);
+}
+/*DESKTOP*/
+@media (min-width: 801px) {
 header {
     border: 2px solid black;
     text-align: left;
@@ -83,25 +88,60 @@ a {
     background-color: white;
 }
 }
-@font-face {
-    font-family:'Yeseva' ;
-    src: url(./YesevaOne-Regular.ttf);
-}
-@media (min-width: 0) and (max-width: 999px) {
+/*MOBILE*/
+@media (min-width: 0) and (max-width: 800px) {
     body {
-        background-color: rgb(255, 255, 255);
+        background-image: url(/patt.jpg);
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
     }
     header {
         border: 2px solid black;
         text-align: left;
         padding: 10px;
-        left: 0;
+        margin: 0 auto;
         color: rgb(0, 0, 0);
         background-image: url(./work/bgt.jpg);
         background-position: 60%;
         min-height: 50px;
-        width: 100vw;
+        width: 100%;
+        box-sizing: border-box;
         font-family: Arial, Helvetica, sans-serif;
+    }
+    .sidebar {
+        position: relative;
+        border: 2px solid hsl(0, 0%, 0%);
+        margin: 0 auto;
+        width: 100%;
+        height: 10%;
+        z-index: 1;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        background-color: rgba(14, 106, 155, 0.8);
+        color: rgb(254, 251, 251);
+        box-sizing: border-box;
+    }
+    .submenu {
+        font-size: 1rem;
+        display: none;
+        color: rgb(255, 255, 255);
+        border: 1px solid black;
+        text-decoration: none;
+        font-weight: lighter;
+        margin-right: 20px;
+    }
+    .submenu li {
+        list-style-type: lower-latin;
+    }
+    .cb {
+        border: 1px solid black;
+    }
+    .parent:hover .submenu {
+        display: block;
+    }
+    .submenu.active {
+        display: block;
     }
     a {
         text-decoration: none;
@@ -110,58 +150,25 @@ a {
     .content {
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
-        color: rgb(255, 74, 219);
+        background-color: rgba(255, 192, 203, 0.5);
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start; /* Align items from top */
         margin: 0 auto;
-        position: absolute;
-    }
-    
-    .content img{
-        max-width: 100vw;
-        gap: 0px;
-    }
-    .content iframe{
-        width: 100vw;
-        max-height: 300px;
-    }
-    .sidebar {
+        padding: 0px; /* Adjusted padding */
         position: relative;
-         border: 2px solid hsl(0, 0%, 0%);
-         bottom: 0;
-         top: 0;
-         margin: 0 auto;
-         width: 100vw;
-         height: 10%;
-         font-family: Arial, Helvetica, sans-serif;
-         font-weight: bold;
-     }
-
- .submenu {
-    font-size: 1rem;
-    display: none;
-    color: black;
-    border: 1px solid black;
-    text-decoration: none;
-    font-weight: lighter;
-    margin-right: 20px;
-}
-.submenu li {
-    list-style-type: lower-latin;
-}
-.cb {
-    border: 1px solid black;
-}
-.parent:hover .submenu {
-    display: block;
-}
-.submenu.active {
-    display: block;
-}
-.content iframe {
-    width: 100%;
-    height: auto;
+        width: 100%;
+        z-index: 0;
+        box-sizing: border-box;
+    }
+    .content img {
+        max-width: 100%;
+        margin-top: 5px; /* Ensure minimal space between title and image */
+    }
+    .content iframe {
+        width: 100%;
+        max-height: 300px;
+        box-sizing: border-box;
+    }
 }
 
-}
