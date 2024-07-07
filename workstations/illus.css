@@ -38,7 +38,7 @@
     a {
         color: inherit;
     }
-     .submenu {
+    .submenu {
         font-size: .9rem;
         color: white;
         border: 1px solid rgb(0, 0, 0);
@@ -47,11 +47,12 @@
         margin-right: 10px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
+        line-height: 2rem;
     }
     .submenu li {
-        list-style-type: lower-latin;
-        letter-spacing: 1px;
-    }
+        list-style-type:lower-latin;
+        
+    } 
     .cb {
         border: 1px solid rgb(0, 0, 0);
         width: fit-content;
@@ -69,8 +70,9 @@
         border-radius: 5px; 
         cursor: pointer;
         }
-        button#changeStylesButton:hover {
-            background-color: rgb(255, 157,90, .6);
+    button#changeStylesButton:hover {
+            background-image: url(../work/ultimatecopy.jpg);
+            background-size: contain;
         }
 a {
     text-decoration: none;

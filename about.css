@@ -27,7 +27,9 @@ button#changeStylesButton {
     cursor: pointer;
     }
     button#changeStylesButton:hover {
-        background-color: rgb(255, 157,90, .6); 
+        background-image: url(./work/imcryingandihateeverythingandimcrying.jpg);
+        color: black; 
+        background-size: cover; 
     }
 .sidebar {
     position: fixed;

@@ -47,10 +47,11 @@
         border: none; 
         border-radius: 5px; 
         cursor: pointer;
-        font-size: 2rem;
         }
         button#changeStylesButton:hover {
-            background-color: rgb(255, 157,90, .6);
+        background-image: url(../work/whenshegetherfelowers\ copy.jpg);
+        color: white; 
+        background-size: cover;
         }
      .submenu {
         font-size: .9rem;
@@ -61,12 +62,16 @@
         margin-right: 10px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
+        line-height: 2rem;
     }
     .submenu li {
-        list-style-type: lower-latin;
+        list-style-type:lower-latin;
+        
     }    
 .cb {
     border: 1px solid black;
+    width: fit-content;
+    padding-inline: 60px;
 }
 
 a {

@@ -36,7 +36,8 @@
     cursor: pointer;
     }
     button#changeStylesButton:hover {
-        background-color: #0056b3;
+        background-image: url(./work/greenblur\ copy.jpg);
+        background-size: contain;
     }
     .sidebar {
         position: fixed;
@@ -66,15 +67,15 @@
         margin-right: 10px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
+        line-height: 2rem;
     }
     .submenu li {
         list-style-type: lower-latin;
-        letter-spacing: 1px;
     }
     .cb {
         border: 1px solid rgb(0, 0, 0);
         width: fit-content;
-        padding-inline: 80px;
+        padding-inline: 60px;
     }
     h3 {
         color: rgb(0, 255, 26);
@@ -212,6 +213,11 @@
         border: none; 
         border-radius: 5px; 
         cursor: pointer;
+    }
+    button#changeStylesButton:hover {
+        background-image: url(./work/greenblur\ copy.jpg);
+        background-size: contain;
+        color: white;
     }
 }
 

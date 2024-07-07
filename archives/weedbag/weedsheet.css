@@ -1,0 +1,42 @@
+#weed-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    grid-gap: 5px;
+  }
+  
+  .weed-item {
+    margin: 30px;
+  }
+  
+  .weed-item img {
+    max-width: 90%;
+    height: 80%;
+  }
+  
+  .weed-item p {
+    position: relative;
+    top: 5px;
+    right: 5px;
+    color: black;
+    margin: 0;
+    font-size: 12px; 
+  }
+
+#sort-button, #random-button {
+    margin: 0 10px;
+    display: inline-block;
+    background-color: transparent;
+    border-color: 1px solid black;
+}
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+  }
+  body { 
+    background-color: rgba(246, 244, 244, 0.895);
+  }
+  html{
+    backdrop-filter: blur(20px);
+    background-size: contain;
+  }
