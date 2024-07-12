@@ -17,26 +17,94 @@
     position: relative;
     top: 5px;
     right: 5px;
-    color: black;
+    color: white;
     margin: 0;
-    font-size: 12px; 
+    background-color: rgba(64, 117, 64, 0.3);
+    font-size: 1rem; 
   }
 
 #sort-button, #random-button {
     margin: 0 10px;
     display: inline-block;
-    background-color: transparent;
+    color: white;
+    background-color: rgba(64, 117, 64, 0.3);
     border-color: 1px solid black;
 }
   h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3rem;
     text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: underline wavy darkolivegreen;
+  }
+  p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+
   }
   body { 
     background-color: rgba(246, 244, 244, 0.895);
+    background-image: url(./MacBook\ Pro\ 16_\ -\ 2.png);
+    backdrop-filter: blur(3px);
+    margin: 30px;
   }
   html{
-    backdrop-filter: blur(20px);
     background-size: contain;
   }
+  /* styles.css */
+
+
+/* Modal styles */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+.modal-content {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}

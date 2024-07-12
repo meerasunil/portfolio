@@ -39,7 +39,11 @@ function renderItems(items) {
       image.src = photoUrl;
 
       image.onerror = function() {
-          console.error('Error loading image:', photoUrl);
+        console.error('Error loading image:', photoUrl);
+      };
+
+      image.onclick = function() {
+        openModal(photoUrl);
       };
 
       const captionElement = document.createElement('p');
@@ -51,6 +55,18 @@ function renderItems(items) {
       weedContainer.appendChild(weedItem);
     }
   });
+}
+
+function openModal(photoUrl) {
+  const modal = document.getElementById('modal');
+  const modalImg = document.getElementById('modal-image');
+  modal.style.display = 'block';
+  modalImg.src = photoUrl;
+}
+
+function closeModal() {
+  const modal = document.getElementById('modal');
+  modal.style.display = 'none';
 }
 
 document.getElementById('sort-button').addEventListener('click', () => {
@@ -72,3 +88,19 @@ document.getElementById('random-button').addEventListener('click', () => {
   const randomRecords = [...records].sort(() => Math.random() - 0.5);
   renderItems(randomRecords);
 });
+
+// Get the <span> element that closes the modal
+const span = document.getElementsByClassName('close')[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  closeModal();
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  const modal = document.getElementById('modal');
+  if (event.target == modal) {
+    closeModal();
+  }
+}
