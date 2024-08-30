@@ -133,37 +133,36 @@ p{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 20px; /* Space between elements */
+    gap: 20px; 
     background-color: rgba(165, 255, 155, 0.6);
-    overflow-y: auto; /* Handle overflow within viewport */
+    overflow-y: auto; 
 }
 
-/* Consistent iframe sizes */
+
 .content iframe {
-    flex: 1 1 48%; /* Adjusts to fill available space, with slight margin */
-    height: 300px; /* Set a fixed height for consistency */
-    width: 100%; /* Responsive width */
-    border: none; /* Remove default borders if any */
+    flex: 1 1 48%; 
+    height: 300px;
+    width: 100%; 
+    border: none; 
 }
 
-/* Prevent overlapping of headings */
+
 h2, h3 {
-    margin: 0 0 10px 0; /* Add margin to separate headings */
+    margin: 0 0 10px 0; 
     padding: 0;
-    position: relative; /* Ensure proper positioning */
-    z-index: 1; /* Ensure it's on top if needed */
+    position: relative; 
+    z-index: 1; 
 }
 
-/* Ensure images and other elements do not overlap */
+
 .content img, .content iframe, .cb, .submenu {
-    position: relative; /* Prevent overlap issues */
-    z-index: 0; /* Lower than headings */
+    position: relative; 
+    z-index: 0; 
 }
 
-/* Additional Flexbox or Grid adjustments if necessary */
 .content > * {
-    flex: 1 1 auto; /* Allow all items to grow and shrink evenly */
-    min-width: 200px; /* Prevent items from becoming too small */
+    flex: 1 1 auto; 
+    min-width: 200px; 
 }
 
 
