@@ -78,10 +78,12 @@ a {
     text-decoration: none;
     color: inherit;
 }
+/*
 h2 {
     font-family: Arial;
     font-weight: bold;
     color: rgb(255, 115, 0);
+    position: relative;
 
 }
 h3 {
@@ -97,30 +99,73 @@ p{
 .content {
     margin-left: 29vw;
     padding: 20px;
-    margin-top: 00px;
+    height: 100vh; 
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
     background-color: rgba(165, 255, 155, 0.6);
+    overflow-y: auto; 
 }
-.content img{
-    max-height: 400px;
-}
+
 .content iframe {
-    width: auto;
-    height: 500px;
-    aspect-ratio: 16/9;
+    height: 100%;
+}
+*/
+.content img{
+    max-height: 200px;
 }
 .image-container hr {
     margin: 50px 0; 
     border: none;
     height: 3px;
     width: calc(100vw-20vw);
-    background-color: rgb(16, 16, 16); /* Adjust the color as needed */
+    background-color: rgb(16, 16, 16); 
 }
+.content {
+    margin-left: 29vw;
+    padding: 20px;
+    height: 100vh; /* Ensure full viewport height */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between elements */
+    background-color: rgba(165, 255, 155, 0.6);
+    overflow-y: auto; /* Handle overflow within viewport */
+}
+
+/* Consistent iframe sizes */
+.content iframe {
+    flex: 1 1 48%; /* Adjusts to fill available space, with slight margin */
+    height: 300px; /* Set a fixed height for consistency */
+    width: 100%; /* Responsive width */
+    border: none; /* Remove default borders if any */
+}
+
+/* Prevent overlapping of headings */
+h2, h3 {
+    margin: 0 0 10px 0; /* Add margin to separate headings */
+    padding: 0;
+    position: relative; /* Ensure proper positioning */
+    z-index: 1; /* Ensure it's on top if needed */
+}
+
+/* Ensure images and other elements do not overlap */
+.content img, .content iframe, .cb, .submenu {
+    position: relative; /* Prevent overlap issues */
+    z-index: 0; /* Lower than headings */
+}
+
+/* Additional Flexbox or Grid adjustments if necessary */
+.content > * {
+    flex: 1 1 auto; /* Allow all items to grow and shrink evenly */
+    min-width: 200px; /* Prevent items from becoming too small */
+}
+
 
 }
 /*-------------MOBILE-------------------------*/

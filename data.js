@@ -1,6 +1,6 @@
 var data = [
     {
-        name: 'PrEP Posters',
+        name: 'PrEP+ Posters',
         date: 11/2022,
         imageUrl: ['work/1.jpeg', 'work/prep2.jpeg'],
     },
@@ -22,9 +22,9 @@ var data = [
     {
         name: 'Still Here Archives',
         date: 07/2023,
-        imageUrl: 'work/pg.jpg',
+        imageUrl: 'work/6copy.png',
         videoUrl: 'work/shwt.mov',
-        url: 'https://stillherearchives.com/',
+        
     },
     {
         name: 'Mockups for Jumanna Manna\'s Ps1 Exhibit: Break Take Erase Tally',
@@ -32,18 +32,11 @@ var data = [
         imageUrl:'work/83copy.jpg',
     },
     {
-        name: 'Nat Geo 1',
+        name: 'Nat Geo ',
         date: 10/2022,
-        imageUrl:'work/ng1.jpeg',
+        imageUrl:['work/ng1.jpeg','work/ng2.jpeg',]
     },
-    {
-        name: 'Nat Geo 2',
-        date: 10/2022,
-        imageUrl:'work/ng2.jpeg',
-    },
-    {
-        name: 'Babel',
-        date: 02/2024,
-        url: 'http://sunim094.interactive.rodeo/studio/project-1/index.html',
-    },
+    
+    
+    
 ]

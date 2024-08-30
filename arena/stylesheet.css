@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+.block {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.block h3 {
+    margin: 0 0 10px;
+}
+.block p {
+    margin: 5px 0;
+}
+.block img {
+    max-width: 5%;
+    height: auto;
+    margin-top: 10px;
+}

@@ -1,33 +1,33 @@
 var data = [
     {
-        name: 'PrEP Poster 1',
+        name: 'PrEP+ Poster 1',
         date: '11/2022',
         imageUrl: 'work/1.jpeg',
     },
     {
-        name: 'PrEP Poster 2',
+        name: 'PrEP+ Poster 2',
         date: '11/2022',
         imageUrl: 'work/prep2.jpeg',
     },
     {
         name: 'Why I Love Every Color',
-        date: 03/2023,
+        date: '03/2023',
         imageUrl: 'work/colors.gif',
     },
     {
         name: 'The Monkey with the Tom-Tom',
-        date: 05/2023,
+        date: '05/2023',
         imageUrl: 'work/monkey.gif',
     },
     {
         name: 'Still Here Archives',
-        date: 07/2023,
-        imageUrl: 'work/pg.jpg',
+        date: '07/2023',
+        imageUrl: 'work/6.png',
         url: 'https://stillherearchives.com',
     },
     {
         name: 'Mockups for Jumanna Manna\'s Ps1 Exhibit: Break Take Erase Tally',
-        date: 05/2023,
+        date: '05/2023',
         imageUrl:'work/83copy.jpg',
     },
     {
@@ -44,7 +44,7 @@ var data = [
     {
         name: 'BC',
         imageUrl:'work/87210009.JPG',
-        date: 07/2023,
+        date: '07/2023',
     },
     {
         name: 'a1',
@@ -99,7 +99,7 @@ var data = [
     {
         name: 'k11',
         imageUrl:'work/perfumeweb.gif',
-        date: 12/2023,
+        date: '12/2023',
     },
     {
         name: 'l12',
@@ -108,12 +108,12 @@ var data = [
     },
     {
         name: 'Nat Geo 1',
-        date: 10/2022,
+        date: '10/2022',
         imageUrl:'work/ng1.jpeg',
     },
     {
         name: 'Nat Geo 2',
-        date: 10/2022,
+        date: '10/2022',
         imageUrl:'work/ng2.jpeg',
     },
 ]

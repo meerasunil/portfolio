@@ -1,64 +1,75 @@
+@font-face {
+  font-family: 'Bodoni Smallcaps';
+  src: url(./Bodoni\ 72\ Smallcaps\ Book.ttf);
+}
+/*DESKTOP*/
+/*DESKTOP*/
+/*DESKTOP*/
+@media (min-width: 801px){
+body { 
+  /*background-image: url(./MacBook\ Pro\ 16_\ -\ 2.png);*/
+  backdrop-filter: blur(100%);
+  margin: 30px;
+}
+html{
+  background-size: contain;
+  background-color: rgb(255, 255, 255);
+
+}
 #weed-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
-    grid-gap: 5px;
-  }
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+  grid-gap: 5px;
+  border: 2px solid white;
+  margin-top: 1rem;
+}
   
-  .weed-item {
-    margin: 30px;
-  }
+.weed-item {
+  margin: 30px;
   
-  .weed-item img {
-    max-width: 90%;
-    height: 80%;
-  }
-  
+}
+
+.weed-item img {
+  max-width: 90%;
+  height: 80%;
+}
   .weed-item p {
     position: relative;
     top: 5px;
     right: 5px;
-    color: white;
+    color: rgb(23, 9, 9);
     margin: 0;
-    background-color: rgba(64, 117, 64, 0.3);
-    font-size: 1rem; 
+    font-size: 1.5rem; 
+    font-family: 'arial';
   }
 
 #sort-button, #random-button {
     margin: 0 10px;
     display: inline-block;
-    color: white;
-    background-color: rgba(64, 117, 64, 0.3);
+    color: rgb(0, 0, 0);
     border-color: 1px solid black;
+    padding: 10px;
 }
   h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Bodoni Smallcaps';
     font-size: 3rem;
     text-align: center;
     color: rgb(0, 0, 0);
-    text-decoration: underline wavy darkolivegreen;
   }
   p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
     text-align: center;
-    color: black;
+    color: rgb(0, 0, 0);
 
   }
-  body { 
-    background-color: rgba(246, 244, 244, 0.895);
-    background-image: url(./MacBook\ Pro\ 16_\ -\ 2.png);
-    backdrop-filter: blur(3px);
-    margin: 30px;
-  }
-  html{
-    background-size: contain;
-  }
-  /* styles.css */
 
-
-/* Modal styles */
+      /* DESKTOP MODAL */
+      /* DESKTOP MODAL */
+      /* DESKTOP MODAL */
+      /* DESKTOP MODAL */
 .modal {
-  display: none; /* Hidden by default */
+  display: none; 
   position: fixed;
   z-index: 1;
   padding-top: 100px;
@@ -107,4 +118,10 @@
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
+}
+}
+/*MOBILE*/
+/*MOBILE*/
+/*MOBILE*/
+@media (min-width: 0) and (max-width: 800px) {
 }
