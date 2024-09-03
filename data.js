@@ -10,6 +10,11 @@ var data = [
         imageUrl: 'work/perfumeweb.gif',
     },
     {
+        name: 'Dossier Perfume Bottle Rebrand',
+        date: '12/2023',
+        imageUrl: ['work/dossierheadon.png', 'work/whiteish.png']
+    },
+    {
         name: 'Why I Love Every Color',
         date: 03/2023,
         imageUrl: 'work/colors.gif',
@@ -38,5 +43,7 @@ var data = [
     },
     
     
-    
 ]
+
+    
+    

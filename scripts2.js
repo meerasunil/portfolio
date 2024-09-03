@@ -95,3 +95,16 @@ document.getElementById('changeStylesButton').addEventListener('click', function
         button.textContent = 'Clean me up';
     }
 });
+document.addEventListener('click', function(event) {
+    var modal = document.getElementById('imageModal');
+    var modalImg = document.getElementById('modalImage');
+
+    if (event.target.tagName === 'IMG' && event.target.parentElement.classList.contains('image-container')) {
+        // Show the modal
+        modal.style.display = 'flex';
+        modalImg.src = event.target.src;
+    } else if (event.target !== modalImg) {
+        // Hide the modal if the click is outside the image
+        modal.style.display = 'none';
+    }
+});

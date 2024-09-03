@@ -97,7 +97,7 @@ var data = [
         date: 2022,
     },
     {
-        name: 'k11',
+        name: 'Dossier Rebrand Website',
         imageUrl:'work/perfumeweb.gif',
         date: '12/2023',
     },
@@ -116,4 +116,9 @@ var data = [
         date: '10/2022',
         imageUrl:'work/ng2.jpeg',
     },
+    {
+        name: 'Dossier Perfume Bottle Rebrand',
+        date: '12/2023',
+        imageUrl: 'work/dossierheadon.png',
+    }
 ]
