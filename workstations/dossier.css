@@ -241,6 +241,10 @@ header {
         gap: 0px;
         max-width: 100%;
     }
+    .content video{
+        max-width: 100%;
+        gap: 0px;
+    }
 .content iframe {
     width: 100%;
     height: auto;
